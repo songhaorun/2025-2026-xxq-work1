@@ -1,0 +1,88 @@
+body {
+    background-image: url("images/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 50px 20%;
+}
+
+#container {
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    padding: 16px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    margin: 20px;
+}
+
+#main_nav {
+    text-align: center;
+    font: x-large 楷体;
+}
+
+#bread {
+    font-size: small;
+}
+
+#s_nav {
+    text-align: center;
+    font-size: large;
+}
+
+#toc {
+    text-align: center;
+    font-family: 黑体;
+}
+
+#btm_nav {
+    text-align: center;
+    font-size: small;
+}
+
+#copyright {
+    text-align: center;
+    font-size: small;
+}
+
+.poem {
+    text-align: center;
+    line-height: 1.5em;
+    font-size: large;
+}
+
+.intro {
+    text-indent: 2em;
+}
+
+.intro_box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro_text {
+    flex: 1;
+    text-indent: 2em;
+    margin-right: 20px;
+}
+
+.intro_img {
+    align-self: center;
+    max-width: 20%;
+    max-height: 150px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: black;
+    border-bottom: 3px solid black;
+}
